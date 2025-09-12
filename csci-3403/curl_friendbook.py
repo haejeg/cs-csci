@@ -1,0 +1,17 @@
+curl ^"https://friendbook.csci3403.com/friendrequest/accept^" ^
+  -H ^"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7^" ^
+  -H ^"accept-language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7^" ^
+  -H ^"cache-control: max-age=0^" ^
+  -H ^"content-type: application/x-www-form-urlencoded^" ^
+  -b ^"session_token=7eadc3b0cb07562f42f0cd59bf9c2166^" ^
+  -H ^"origin: https://friendbook.csci3403.com^" ^
+  -H ^"priority: u=0, i^" ^
+  -H ^"referer: https://friendbook.csci3403.com/oaken-sw.js?route=haje1510^&auth=eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJkb21haW4iOiJmcmllbmRib29rIiwidXNlciI6ImhhamUxNTEwIiwiYWRtaW4iOmZhbHNlfQ.eFm3hNG8u2hzpfO_dCKUvhIejPu2WesP-c_EAn4hDgylLBhNFNkaAL2Mjba6COl41BW_svPNe7asi_E2asQYDQ^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: same-origin^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"upgrade-insecure-requests: 1^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36^" ^
+  -H ^"x-oaken-auth: eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJkb21haW4iOiJmcmllbmRib29rIiwidXNlciI6ImhhamUxNTEwIiwiYWRtaW4iOmZhbHNlfQ.eFm3hNG8u2hzpfO_dCKUvhIejPu2WesP-c_EAn4hDgylLBhNFNkaAL2Mjba6COl41BW_svPNe7asi_E2asQYDQ^" ^
+  -H ^"x-oaken-route: haje1510^" ^
+  --data-raw ^"friend_request_id=253880^"
