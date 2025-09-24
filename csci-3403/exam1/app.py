@@ -146,7 +146,15 @@ def admin_dashboard():
 
     # FIX: Decrypt the data and check whether or not user is admin 
     username = request.cookies.get("session_token")
-    decrypted_data = fernet.decrypt(username.encode()).decode()
+
+    if not username:
+        return render_template("error.html", error="Login Required")
+    
+    try:
+        decrypted_data = fernet.decrypt(username.encode()).decode()
+    except:
+        return render_template("error.html", error="Something went wrong")
+    
     user = user_database.get(decrypted_data)
 
     if user.is_admin == False:
@@ -160,6 +168,21 @@ def update_product():
 
     product_id = request.form.get("product_id", type=int)
     new_description = request.form.get("description")
+
+    username = request.cookies.get("session_token")
+
+    if not username:
+        return render_template("error.html", error="Login Required")
+    
+    try: 
+        decrypted_data = fernet.decrypt(username.encode()).decode()
+    except:
+        return render_template("error.html", error="Something went wrong")
+    
+    user = user_database.get(decrypted_data)
+
+    if user.is_admin == False:
+        return render_template("error.html", error="This page is for admins only")
 
     if product_id is None or new_description is None:
         return render_template("error.html", error="Request is missing required fields")
