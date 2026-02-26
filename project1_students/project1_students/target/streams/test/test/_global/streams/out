@@ -1,0 +1,300 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(edu.colorado.csci3155.project1.CompilerTest, org.scalatest.tools.Framework$$anon$1@4dec4a31, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(edu.colorado.csci3155.project1.StackMachineTest, org.scalatest.tools.Framework$$anon$1@4dec4a31, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStackMachineTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.MatchError: IPush(2.5) (of class edu.colorado.csci3155.project1.IPush)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineEmulator$.emulateStackMachine(StackMachineEmulator.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.testFun$proxy1$1(StackMachineTest.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.$init$$$anonfun$1(StackMachineTest.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.MatchError: IPush(2.5) (of class edu.colorado.csci3155.project1.IPush)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineEmulator$.emulateStackMachine(StackMachineEmulator.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.testFun$proxy2$1(StackMachineTest.scala:32)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.$init$$$anonfun$2(StackMachineTest.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.MatchError: IPush(3.5) (of class edu.colorado.csci3155.project1.IPush)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineEmulator$.emulateStackMachine(StackMachineEmulator.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.testFun$proxy3$1(StackMachineTest.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.$init$$$anonfun$3(StackMachineTest.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.MatchError: IPush(3.5) (of class edu.colorado.csci3155.project1.IPush)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineEmulator$.emulateStackMachine(StackMachineEmulator.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.testFun$proxy4$1(StackMachineTest.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.$init$$$anonfun$4(StackMachineTest.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.MatchError: IPush(1.5) (of class edu.colorado.csci3155.project1.IPush)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineEmulator$.emulateStackMachine(StackMachineEmulator.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.testFun$proxy5$1(StackMachineTest.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineTest.$init$$$anonfun$5(StackMachineTest.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompilerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy1$1(CompilerTest.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$1(CompilerTest.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy2$1(CompilerTest.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$2(CompilerTest.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy3$1(CompilerTest.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$3(CompilerTest.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy4$1(CompilerTest.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$4(CompilerTest.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Id Test 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy5$1(CompilerTest.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$5(CompilerTest.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Id Test 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy6$1(CompilerTest.scala:63)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$6(CompilerTest.scala:60)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Id Test 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy7$1(CompilerTest.scala:74)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$7(CompilerTest.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Id Test 4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy8$1(CompilerTest.scala:95)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$8(CompilerTest.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Id Test 5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy9$1(CompilerTest.scala:124)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$9(CompilerTest.scala:115)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- If-then-else-test-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy10$1(CompilerTest.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$10(CompilerTest.scala:148)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  + Expression: Let(x,Const(25.0),IfThenElse(Geq(Id(x),Const(25.0)),Add(Id(x),Const(25.5)),Const(43.0))) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- If-then-else-test-2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy11$1(CompilerTest.scala:182)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$11(CompilerTest.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-and-simple-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy12$1(CompilerTest.scala:209)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$12(CompilerTest.scala:206)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-and-simple-2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy13$1(CompilerTest.scala:227)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$13(CompilerTest.scala:224)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-and-simple-3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy14$1(CompilerTest.scala:246)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$14(CompilerTest.scala:243)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-or-simple-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy15$1(CompilerTest.scala:264)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$15(CompilerTest.scala:261)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-or-not-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy16$1(CompilerTest.scala:283)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$16(CompilerTest.scala:280)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-let-binding-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.testFun$proxy17$1(CompilerTest.scala:310)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$init$$$anonfun$17(CompilerTest.scala:302)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 508 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 22[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 22, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 22 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.colorado.csci3155.project1.StackMachineTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.colorado.csci3155.project1.CompilerTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

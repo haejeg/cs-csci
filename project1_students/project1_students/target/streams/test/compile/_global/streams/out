@@ -1,0 +1,60 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\haeje\Downloads\project1_students\project1_students\src\test\scala\edu\colorado\csci3155\project1\StackMachineTest.scala:25:64 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m        [33mval[0m (res, _) = StackMachineEmulator.emulateStackMachine(lst1)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Found:    (lst1 :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    List[edu.colorado.csci3155.project1.IPush | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IPlus][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Required: List[edu.colorado.csci3155.project1.StackMachineInstruction][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\haeje\Downloads\project1_students\project1_students\src\test\scala\edu\colorado\csci3155\project1\StackMachineTest.scala:32:64 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m        [33mval[0m (res, f) = StackMachineEmulator.emulateStackMachine(lst1)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Found:    (lst1 :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    List[edu.colorado.csci3155.project1.IPush | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IPlus | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IGt][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Required: List[edu.colorado.csci3155.project1.StackMachineInstruction][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\haeje\Downloads\project1_students\project1_students\src\test\scala\edu\colorado\csci3155\project1\StackMachineTest.scala:39:67 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m39 |[0m        [33mval[0m (res, fenv) = StackMachineEmulator.emulateStackMachine(lst1)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                   ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mFound:    (lst1 :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  List[edu.colorado.csci3155.project1.IPush | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    edu.colorado.csci3155.project1.IPlus | ([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    edu.colorado.csci3155.project1.IStore | edu.colorado.csci3155.project1.ILoad[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    )][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mRequired: List[edu.colorado.csci3155.project1.StackMachineInstruction][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\haeje\Downloads\project1_students\project1_students\src\test\scala\edu\colorado\csci3155\project1\StackMachineTest.scala:49:68 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m49 |[0m        [33mval[0m (res2, fenv) = StackMachineEmulator.emulateStackMachine(lst4)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Found:    (lst4 :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    List[edu.colorado.csci3155.project1.IPush |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IStore | ([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.ILoad | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IPlus | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IMul)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Required: List[edu.colorado.csci3155.project1.StackMachineInstruction][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\haeje\Downloads\project1_students\project1_students\src\test\scala\edu\colorado\csci3155\project1\StackMachineTest.scala:62:64 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m        [33mval[0m (res, f) = StackMachineEmulator.emulateStackMachine(lst3)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Found:    (lst3 :[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    List[edu.colorado.csci3155.project1.IPush | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IPlus | (object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IMul | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.ISub | object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      edu.colorado.csci3155.project1.IDiv)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Required: List[edu.colorado.csci3155.project1.StackMachineInstruction][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

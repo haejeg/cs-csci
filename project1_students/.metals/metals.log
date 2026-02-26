@@ -1,0 +1,14 @@
+2026.02.25 16:17:57 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\haeje\Downloads\project1_students' for client Visual Studio Code 1.109.5.
+2026.02.25 16:17:57 INFO  Memory monitor started
+2026.02.25 16:17:58 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.25 16:18:08 INFO  Shutting down server
+2026.02.25 16:18:08 INFO  Memory monitor stopped
+2026.02.25 16:18:08 INFO  shutting down Metals
+2026.02.25 16:18:08 INFO  Exiting server
+2026.02.25 16:18:21 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\haeje\Downloads\project1_students' for client Visual Studio Code 1.109.5.
+2026.02.25 16:18:21 INFO  Memory monitor started
+2026.02.25 16:18:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.25 16:18:43 INFO  Shutting down server
+2026.02.25 16:18:43 INFO  Memory monitor stopped
+2026.02.25 16:18:43 INFO  shutting down Metals
+2026.02.25 16:18:43 INFO  Exiting server
