@@ -12,3 +12,128 @@
 2026.02.25 16:18:43 INFO  Memory monitor stopped
 2026.02.25 16:18:43 INFO  shutting down Metals
 2026.02.25 16:18:43 INFO  Exiting server
+2026.02.27 16:16:26 INFO  Started: Metals version 1.6.5 in folders '\\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students' for client Visual Studio Code 1.109.5.
+2026.02.27 16:16:26 INFO  Memory monitor started
+2026.02.27 16:16:26 ERROR org.h2.jdbc.JdbcSQLFeatureNotSupportedException: Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:568)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.getUnsupportedException(DbException.java:287)
+	at org.h2.engine.Database.<init>(Database.java:277)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:350)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql.DriverManager.getConnection(DriverManager.java:613)
+	at java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at scala.meta.internal.metals.H2ConnectionProvider.upgradeIfNeeded(H2ConnectionProvider.scala:132)
+	at scala.meta.internal.metals.H2ConnectionProvider.persistentConnection(H2ConnectionProvider.scala:108)
+	at scala.meta.internal.metals.H2ConnectionProvider.tryAutoServer(H2ConnectionProvider.scala:62)
+	at scala.meta.internal.metals.H2ConnectionProvider.connect(H2ConnectionProvider.scala:44)
+	at scala.meta.internal.metals.H2ConnectionProvider.connection(H2ConnectionProvider.scala:34)
+	at scala.meta.internal.metals.Tables.$anonfun$dependencySources$1(Tables.scala:23)
+	at scala.meta.internal.metals.DependencySources.getBuildTarget(DependencySources.scala:25)
+	at scala.meta.internal.metals.BuildTargets.$anonfun$inverseSources$2(BuildTargets.scala:288)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.BuildTargets.inverseSources(BuildTargets.scala:288)
+	at scala.meta.internal.metals.ModuleStatus.refresh(ModuleStatus.scala:45)
+	at scala.meta.internal.metals.WorkspaceLspService.setFocusedDocument(WorkspaceLspService.scala:217)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:467)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:38)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+
+2026.02.27 16:16:26 ERROR unable to setup persistent H2 database with AUTO_SERVER=false, falling back to in-memory database. This means you may be redundantly asked to execute 'Import build', even if it's not needed. Also, code navigation will not work for existing files in the .metals/readonly/ directory. To fix this problem, make sure you only have one running Metals server in the directory '\\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students'.
+org.h2.jdbc.JdbcSQLFeatureNotSupportedException: Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:568)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.getUnsupportedException(DbException.java:287)
+	at org.h2.engine.Database.<init>(Database.java:277)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:350)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql.DriverManager.getConnection(DriverManager.java:613)
+	at java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at scala.meta.internal.metals.H2ConnectionProvider.upgradeIfNeeded(H2ConnectionProvider.scala:132)
+	at scala.meta.internal.metals.H2ConnectionProvider.persistentConnection(H2ConnectionProvider.scala:108)
+	at scala.meta.internal.metals.Tables.tryNoAutoServer(Tables.scala:37)
+	at scala.meta.internal.metals.H2ConnectionProvider.tryAutoServer(H2ConnectionProvider.scala:73)
+	at scala.meta.internal.metals.H2ConnectionProvider.connect(H2ConnectionProvider.scala:44)
+	at scala.meta.internal.metals.H2ConnectionProvider.connection(H2ConnectionProvider.scala:34)
+	at scala.meta.internal.metals.Tables.$anonfun$dependencySources$1(Tables.scala:23)
+	at scala.meta.internal.metals.DependencySources.getBuildTarget(DependencySources.scala:25)
+	at scala.meta.internal.metals.BuildTargets.$anonfun$inverseSources$2(BuildTargets.scala:288)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.BuildTargets.inverseSources(BuildTargets.scala:288)
+	at scala.meta.internal.metals.ModuleStatus.refresh(ModuleStatus.scala:45)
+	at scala.meta.internal.metals.WorkspaceLspService.setFocusedDocument(WorkspaceLspService.scala:217)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:467)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:38)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+
+2026.02.27 16:16:26 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.27 16:16:26 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+Feb 27, 2026 4:16:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Feb 27, 2026 4:16:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.02.27 16:16:29 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:29 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Feb 27, 2026 4:16:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Feb 27, 2026 4:16:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Feb 27, 2026 4:16:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.02.27 16:16:30 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:31 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:31 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:31 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:34 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:34 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Feb 27, 2026 4:16:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Feb 27, 2026 4:16:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2026.02.27 16:16:34 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Feb 27, 2026 4:16:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.02.27 16:16:36 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:36 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:37 INFO  no build target found for \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 16:16:37 WARN  no build target for: \\wsl.localhost\Ubuntu\home\hi\BM\cs-csci\project1_students\project1_students\src\main\scala\edu\colorado\csci3155\project1\StackMachineEmulator.scala
+Feb 27, 2026 4:16:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29

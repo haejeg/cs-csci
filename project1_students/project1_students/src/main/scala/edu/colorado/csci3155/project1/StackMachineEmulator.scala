@@ -60,13 +60,13 @@ object StackMachineEmulator {
             case IPushBool(b) => {
                 (Bool(b) :: stack, env)
             }
-            case IPop => {
-                (stack.tail, env)
-            }
             case IPlus => {
                 val v1 = stack.head
                 val v2 = stack.tail.head
-                (Num(v1.getDoubleValue + v2.getDoubleValue) :: stack.drop(2), env)
+                (v1, v2) match {
+                    case (Num(v1), Num(v2)) => (Num(v1 + v2) :: stack.tail.tail, env)
+                    case _ => throw new IllegalStateException("The stack needs at least two numerical values")
+                }
             }
             case ISub => {
                 val v1 = stack.head
@@ -114,6 +114,15 @@ object StackMachineEmulator {
                     case _ => throw new IllegalStateException("The stack needs at least two numerical values")
                 }
             }
+            case IEq => {
+                val v1 = stack.head
+                val v2 = stack.tail.head
+                (v1, v2) match {
+                    case(Num(v1), Num(v2)) => (Bool(v2 == v1) :: stack.tail.tail, env)
+                    case(Bool(v1), Bool(v2)) => (Bool(v2 == v1) :: stack.tail.tail, env)
+                    case _ => throw new IllegalStateException("The stack needs at least two values of the same type")
+                }
+            }
             case INot => {
                 val v1 = stack.head
                 v1 match {
@@ -133,7 +142,11 @@ object StackMachineEmulator {
                 }
             }
             case IPop => {
-                (stack, env.tail)
+                if (env.isEmpty) {
+                    throw new IllegalStateException("The environment stack is empty, cannot pop")
+                } else {
+                    (stack, env.tail)
+                }
             }
             case _ => throw new IllegalStateException("Unknown instruction")
         }
@@ -176,7 +189,10 @@ object StackMachineEmulator {
                         /* -- drop this instruction and next n -- continue --*/
                         emulateStackMachine(instructionList.drop(n+1), opStack, runtimeStack)
                     }
-
+                    case ins => {
+                        val (newOpStack: OpStack, newRuntime:EnvStack) = emulateSingleInstruction(opStack, runtimeStack, ins)
+                        emulateStackMachine(instructionList.tail, newOpStack, newRuntime)
+                    }
                     case null => {
                         /*- Otherwise, just call emulateSingleInstruction -*/
                         val (newOpStack: OpStack, newRuntime:EnvStack) = emulateSingleInstruction(opStack, runtimeStack, ins)
